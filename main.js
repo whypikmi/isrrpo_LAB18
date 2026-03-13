@@ -1,3 +1,4 @@
+/*
 console.log("Hello, JavaScript!");
 let age = 20;
 let name = "Liza";
@@ -84,3 +85,23 @@ const persons = {name: "Denis",age: 18};
 persons.age = 50;
 persons.city = "Volgograd";
 console.log(persons);
+*/
+console.log(typeof "текст");
+console.log(typeof 42);
+console.log(typeof true);
+console.log(typeof undefined);
+console.log(typeof null);
+console.log(typeof {});
+console.log(typeof []);
+console.log(typeof function() {});
+
+let numberX = null;
+console.log(numberX === null);
+
+let newPrice;
+newPrice = 5;
+console.log(newPrice);
+console.log(typeof newPrice);
+newPrice = "Hello";
+console.log(newPrice);
+console.log(typeof newPrice);
